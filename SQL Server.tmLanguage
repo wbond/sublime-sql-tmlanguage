@@ -328,6 +328,12 @@
 			<string>support.function.string.sql</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>(?i)(@\w+)\b</string>
+			<key>name</key>
+			<string>variable.language.sql</string>
+		</dict>
+		<dict>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
