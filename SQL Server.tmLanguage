@@ -223,9 +223,21 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i:\b(add|all|and|any|as|authorization|backup|between|break|browse|bulk|by|case|check|checkpoint|close|clustered|coalesce|collate|column|compute|contains|containstable|continue|convert|current|current_user|cursor|database|dbcc|deallocate|declare|default|delete|deny|disk|distributed|double|dump|else|end|errlvl|escape|except|exists|exit|external|fetch|file|fillfactor|for|freetext|freetexttable|full|function|goto|holdlock|identitycol|identity_insert|if|in|insert|intersect|into|is|isnull|key|kill|left|lineno|load|merge|national|nocheck|nonclustered|not|nullif|of|off|offsets|on|open|opendatasource|openquery|openrowset|openxml|option|or|over|percent|pivot|plan|print|proc|public|raiserror|read|readtext|reconfigure|replication|restore|return|revert|right|rowcount|rowguidcol|rule|save|schema|securityaudit|semantickeyphrasetable|semanticsimilaritydetailstable|semanticsimilaritytable|session_user|set|setuser|shutdown|some|statistics|system_user|tablesample|textsize|then|to|top|tran|truncate|try_convert|tsequal|unpivot|updatetext|use|user|waitfor|when|while|with|within|writetext)\b)</string>
+			<string>(?i:\b(add|all|and|any|as|authorization|backup|between|break|browse|bulk|by|case|check|checkpoint|close|clustered|coalesce|collate|column|compute|contains|containstable|continue|convert|current|current_user|cursor|database|dbcc|deallocate|declare|default|delete|deny|disk|distributed|double|dump|else|end|errlvl|escape|except|exists|exit|external|fetch|file|fillfactor|for|freetext|freetexttable|full|function|goto|holdlock|identitycol|identity_insert|if|in|insert|intersect|into|is|key|kill|lineno|load|merge|national|nocheck|nonclustered|not|nullif|of|off|offsets|on|open|option|or|over|percent|pivot|plan|print|proc|public|raiserror|read|readtext|reconfigure|replication|restore|return|revert|rowcount|rowguidcol|rule|save|schema|securityaudit|semantickeyphrasetable|semanticsimilaritydetailstable|semanticsimilaritytable|session_user|set|setuser|shutdown|some|statistics|system_user|tablesample|textsize|then|to|top|tran|truncate|try_convert|tsequal|unpivot|updatetext|use|user|waitfor|when|while|with|within|writetext)\b)</string>
 			<key>name</key>
 			<string>keyword.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i:\b(sp_column_privileges|sp_special_columns|sp_columns|sp_sproc_columns|sp_databases|sp_statistics|sp_fkeys|sp_stored_procedures|sp_pkeys|sp_table_privileges|sp_server_info|sp_tables|sp_cursor_list|sp_cursorprepare|sp_cursor|sp_cursorprepexec|sp_cursorclose|sp_cursorunprepare|sp_cursorexecute|sp_describe_cursor|sp_cursorfetch|sp_describe_cursor_columns|sp_cursoropen|sp_describe_cursor_tables|sp_cursoroption|sp_syscollector_create_collection_item|sp_syscollector_set_cache_window|sp_syscollector_create_collection_set|sp_syscollector_set_warehouse_database_name|sp_syscollector_create_collector_type|sp_syscollector_set_warehouse_instance_name|sp_syscollector_delete_collection_item|sp_syscollector_start_collection_set|sp_syscollector_delete_collection_set|sp_syscollector_stop_collection_set|sp_syscollector_delete_collector_type|sp_syscollector_run_collection_set|sp_syscollector_delete_execution_log_tree|sp_syscollector_update_collection_item|sp_syscollector_disable_collector|sp_syscollector_update_collection_set|sp_syscollector_enable_collector|sp_syscollector_update_collector_type|sp_syscollector_set_cache_directory|sp_syscollector_upload_collection_set|sp_add_data_file_recover_suspect_db|sp_execute|sp_add_log_file_recover_suspect_db|sp_executesql|sp_addextendedproc|sp_getapplock|sp_addextendedproperty|sp_getbindtoken|sp_addmessage|sp_help|sp_addtype|sp_helpconstraint|sp_addumpdevice|sp_helpdb|sp_altermessage|sp_helpdevice|sp_attach_db|sp_helpextendedproc|sp_attach_single_file_db|sp_helpfile|sp_autostats|sp_helpfilegroup|sp_bindefault|sp_helpindex|sp_bindrule|sp_helplanguage|sp_bindsession|sp_helpserver|sp_certify_removable|sp_helpsort|sp_clean_db_file_free_space|sp_helpstats|sp_clean_db_free_space|sp_helptext|sp_configure|sp_helptrigger|sp_control_plan_guide|sp_indexoption|sp_create_plan_guide|sp_invalidate_textptr|sp_create_plan_guide_from_handle|sp_lock|sp_create_removable|sp_monitor|sp_createstats|sp_prepare|sp_cycle_errorlog|sp_prepexec|sp_datatype_info|sp_prepexecrpc|sp_db_increased_partitions|sp_procoption|sp_dbcmptlevel|sp_recompile|sp_dbmmonitoraddmonitoring|sp_refreshview|sp_dbmmonitorchangealert|sp_releaseapplock|sp_dbmmonitorchangemonitoring|sp_rename|sp_dbmmonitordropalert|sp_renamedb|sp_dbmmonitordropmonitoring|sp_resetstatus|sp_dbmmonitorhelpalert|sp_sequence_get_range|sp_dbmmonitorhelpmonitoring|sp_serveroption|sp_dbmmonitorresults|sp_setnetname|sp_delete_backuphistory|sp_settriggerorder|sp_depends|sp_spaceused|sp_describe_first_result_set|sp_tableoption|sp_describe_undeclared_parameters|sp_unbindefault|sp_detach_db|sp_unbindrule|sp_dropdevice|sp_updateextendedproperty|sp_dropextendedproc|sp_updatestats|sp_dropextendedproperty|sp_unprepare|sp_dropmessage|sp_validname|sp_droptype|sp_who|sp_send_dbmail|sysmail_help_configure_sp|sysmail_add_account_sp|sysmail_help_principalprofile_sp|sysmail_add_principalprofile_sp|sysmail_help_profile_sp|sysmail_add_profile_sp|sysmail_help_profileaccount_sp|sysmail_add_profileaccount_sp|sysmail_help_queue_sp|sysmail_configure_sp|sysmail_help_status_sp|sysmail_delete_account_sp|sysmail_start_sp|sysmail_delete_log_sp|sysmail_stop_sp|sysmail_delete_mailitems_sp|sysmail_update_account_sp|sysmail_delete_principalprofile_sp|sysmail_update_principalprofile_sp|sysmail_delete_profile_sp|sysmail_update_profile_sp|sysmail_delete_profileaccount_sp|sysmail_update_profileaccount_sp|sysmail_help_account_sp|sp_add_maintenance_plan|sp_delete_maintenance_plan_db|sp_add_maintenance_plan_db|sp_delete_maintenance_plan_job|sp_add_maintenance_plan_job|sp_help_maintenance_plan|sp_delete_maintenance_plan|sp_addlinkedserver|sp_indexes|sp_addlinkedsrvlogin|sp_linkedservers|sp_catalogs|sp_primarykeys|sp_column_privileges_ex|sp_serveroption|sp_columns_ex|sp_table_privileges_ex|sp_droplinkedsrvlogin|sp_tables_ex|sp_dropserver|sp_testlinkedserver|sp_foreignkeys|sp_filestream_force_garbage_collection|sp_kill_filestream_non_transacted_handles|sp_fulltext_catalog|sp_fulltext_column|sp_fulltext_database|sp_fulltext_keymappings|sp_fulltext_load_thesaurus_file|sp_fulltext_pendingchanges|sp_fulltext_service|sp_fulltext_table|sp_help_fulltext_catalog_components|sp_help_fulltext_catalogs|sp_help_fulltext_catalogs_cursor|sp_help_fulltext_columns|sp_help_fulltext_columns_cursor|sp_help_fulltext_system_components|sp_help_fulltext_tables|sp_help_fulltext_tables_cursor|sp_fulltext_semantic_register_language_statistics_db|sp_fulltext_semantic_unregister_language_statistics_db|xp_cmdshell|xp_logininfo|xp_enumgroups|xp_msver|xp_grantlogin|xp_revokelogin|xp_logevent|xp_sprintf|xp_loginconfig|xp_sqlmaint|xp_sscanf|sp_add_log_shipping_alert_job|sp_delete_log_shipping_secondary_database|sp_add_log_shipping_primary_database|sp_delete_log_shipping_secondary_primary|sp_add_log_shipping_primary_secondary|sp_help_log_shipping_alert_job|sp_add_log_shipping_secondary_database|sp_help_log_shipping_monitor|sp_add_log_shipping_secondary_primary|sp_help_log_shipping_monitor_primary|sp_change_log_shipping_primary_database|sp_help_log_shipping_monitor_secondary|sp_change_log_shipping_secondary_database|sp_help_log_shipping_primary_database|sp_change_log_shipping_secondary_primary|sp_help_log_shipping_primary_secondary|sp_cleanup_log_shipping_history|sp_help_log_shipping_secondary_database|sp_delete_log_shipping_alert_job|sp_help_log_shipping_secondary_primary|sp_delete_log_shipping_primary_database|sp_refresh_log_shipping_monitor|sp_delete_log_shipping_primary_secondary|sp_OACreate|sp_OAMethod|sp_OADestroy|sp_OASetProperty|sp_OAGetErrorInfo|sp_OAStop|sp_OAGetProperty|sp_syspolicy_add_policy_category|sp_syspolicy_rename_policy_category|sp_syspolicy_add_policy_category_subscription|sp_syspolicy_repair_policy_automation|sp_syspolicy_configure|sp_syspolicy_set_config_enabled|sp_syspolicy_delete_policy_category|sp_syspolicy_set_config_history_retention|sp_syspolicy_delete_policy_category_subscription|sp_syspolicy_set_log_on_success|sp_syspolicy_delete_policy_execution_history|sp_syspolicy_subscribe_to_policy_category|sp_syspolicy_purge_health_state|sp_syspolicy_unsubscribe_from_policy_category|sp_syspolicy_purge_history|sp_syspolicy_update_policy_category|sp_syspolicy_rename_condition|sp_syspolicy_update_policy_category_subscription|sp_syspolicy_rename_policy|sp_addapprole|sp_dropserver|sp_addlinkedsrvlogin|sp_dropsrvrolemember|sp_addlogin|sp_dropuser|sp_addremotelogin|sp_grantdbaccess|sp_addrole|sp_grantlogin|sp_addrolemember|sp_helpdbfixedrole|sp_addserver|sp_helplinkedsrvlogin|sp_addsrvrolemember|sp_helplogins|sp_adduser|sp_helpntgroup|sp_approlepassword|sp_helpremotelogin|sp_audit_write|sp_helprole|sp_changedbowner|sp_helprolemember|sp_changeobjectowner|sp_helprotect|sp_change_users_login|sp_helpsrvrole|sp_dbfixedrolepermission|sp_helpsrvrolemember|sp_defaultdb|sp_helpuser|sp_defaultlanguage|sp_migrate_user_to_contained|sp_denylogin|sp_MShasdbaccess|sp_dropalias|sp_password|sp_dropapprole|sp_remoteoption|sp_droplinkedsrvlogin|sp_revokedbaccess|sp_droplogin|sp_revokelogin|sp_dropremotelogin|sp_setapprole|sp_droprole|sp_srvrolepermission|sp_droprolemember|sp_validatelogins|sp_help_spatial_geometry_index|sp_help_spatial_geography_index|sp_help_spatial_geometry_index_xml|sp_help_spatial_geography_index_xml|sp_add_alert|sp_help_jobactivity|sp_add_category|sp_help_jobcount|sp_add_job|sp_help_jobhistory|sp_add_jobschedule|sp_help_jobs_in_schedule|sp_add_jobserver|sp_help_jobschedule|sp_add_jobstep|sp_help_jobserver|sp_add_notification|sp_help_jobstep|sp_add_operator|sp_help_jobsteplog|sp_add_schedule|sp_help_notification|sp_add_targetservergroup|sp_help_operator|sp_add_targetsvrgrp_member|sp_help_proxy|sp_apply_job_to_targets|sp_help_schedule|sp_attach_schedule|sp_help_targetserver|sp_cycle_agent_errorlog|sp_help_targetservergroup|sp_cycle_errorlog|sp_manage_jobs_by_login|sp_delete_alert|sp_msx_defect|sp_delete_category|sp_msx_enlist|sp_delete_job|sp_msx_get_account|sp_delete_jobschedule|sp_msx_set_account|sp_delete_jobserver|sp_notify_operator|sp_delete_jobstep|sp_post_msx_operation|sp_delete_jobsteplog|sp_purge_jobhistory|sp_delete_notification|sp_remove_job_from_targetss|sp_delete_operator|sp_resync_targetserver|sp_delete_proxy|sp_revoke_login_from_proxy|sp_delete_schedule|sp_revoke_proxy_from_subsystem|sp_delete_targetserver|sp_start_job|sp_delete_targetservergroup|sp_stop_job|sp_delete_targetsvrgrp_member|sp_update_alert|sp_detach_schedule|sp_update_category|sp_enum_login_for_proxy|sp_update_job|sp_enum_proxy_for_subsystem|sp_update_jobschedule|sp_enum_sqlagent_subsystems|sp_update_jobstep|sp_grant_proxy_to_subsystem|sp_update_notification|sp_grant_login_to_proxy|sp_update_operator|sp_help_alert|sp_update_proxy|sp_help_category|sp_update_schedule|sp_help_downloadlist|sp_update_targetservergroup|sp_help_job|sp_trace_create|sp_trace_setfilter|sp_trace_generateevent|sp_trace_setstatus|sp_trace_setevent|sp_xml_preparedocument|sp_xml_removedocument|sp_db_selective_xml_index|xml\.modify|xml\.query|xml\.value|xml\.exist|xml\.nodes)\b)</string>
+			<key>name</key>
+			<string>support.function.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i:\bnull\b)</string>
+			<key>name</key>
+			<string>constant.sql</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -323,15 +335,81 @@
 			<key>comment</key>
 			<string>List of SQL99 built-in functions from http://www.oreilly.com/catalog/sqlnut/chapter/ch04.html</string>
 			<key>match</key>
-			<string>(?i)\b(AVG|COUNT|MIN|MAX|SUM)(?=\s*\()</string>
+			<string>(?i)\b(AVG|CHECKSUM_AGG|COUNT|COUNT_BIG|GROUPING|GROUPING_ID|MIN|MAX|SUM|STDEV|STDEVP|VAR|VARP)(?=\s*\()</string>
 			<key>name</key>
 			<string>support.function.aggregate.sql</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(CONCATENATE|CONVERT|LOWER|SUBSTRING|TRANSLATE|TRIM|UPPER)\b</string>
+			<string>(?i)\b(CONCATENATE|TRANSLATE|ASCII|LTRIM|SOUNDEX|CHAR|NCHAR|SPACE|CHARINDEX|PATINDEX|STR|CONCAT|QUOTENAME|STUFF|DIFFERENCE|REPLACE|SUBSTRING|FORMAT|REPLICATE|UNICODE|LEFT|REVERSE|UPPER|LEN|RIGHT|LOWER|RTRIM)\b</string>
 			<key>name</key>
 			<string>support.function.string.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)\b(ERROR_SEVERITY|ERROR_STATE|FORMATMESSAGE|GETANSINULL|GET_FILESTREAM_TRANSACTION_CONTEXT|HOST_ID|BINARY_CHECKSUM|HOST_NAME|CHECKSUM|ISNULL|CONNECTIONPROPERTY|ISNUMERIC|CONTEXT_INFO|MIN_ACTIVE_ROWVERSION|CURRENT_REQUEST_ID|NEWID|ERROR_LINE|NEWSEQUENTIALID|ERROR_MESSAGE|ROWCOUNT_BIG|ERROR_NUMBER|XACT_STATE|ERROR_PROCEDURE)\b</string>
+			<key>name</key>
+			<string>support.function.system.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)(\$PARTITION|@@ERROR|@@IDENTITY|@@PACK_RECEIVED|@@ROWCOUNT|@@TRANCOUNT|@@PROCID|\bfn_virtualfilestats)\b</string>
+			<key>name</key>
+			<string>support.function.other.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)\b(INDEX_COL|APP_NAME|INDEXKEY_PROPERTY|APPLOCK_MODE|INDEXPROPERTY|APPLOCK_TEST|NEXT VALUE FOR|ASSEMBLYPROPERTY|OBJECT_DEFINITION|COL_LENGTH|OBJECT_ID|COL_NAME|OBJECT_NAME|COLUMNPROPERTY|OBJECT_SCHEMA_NAME|DATABASE_PRINCIPAL_ID|OBJECTPROPERTY|DATABASEPROPERTYEX|OBJECTPROPERTYEX|DB_ID|ORIGINAL_DB_NAME|DB_NAME|PARSENAME|FILE_ID|SCHEMA_ID|FILE_IDEX|SCHEMA_NAME|FILE_NAME|SCOPE_IDENTITY|FILEGROUP_ID|SERVERPROPERTY|FILEGROUP_NAME|STATS_DATE|FILEGROUPPROPERTY|TYPE_ID|FILEPROPERTY|TYPE_NAME|FULLTEXTCATALOGPROPERTY|TYPEPROPERTY|FULLTEXTSERVICEPROPERTY)\b</string>
+			<key>name</key>
+			<string>support.function.metadata.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)@@(CONNECTIONS|PACK_RECEIVED|CPU_BUSY|PACK_SENT|TIMETICKS|IDLE|TOTAL_ERRORS|IO_BUSY|TOTAL_READ|PACKET_ERRORS|TOTAL_WRITE)\b</string>
+			<key>name</key>
+			<string>support.function.system-statistical.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)@@(DATEFIRST|OPTIONS|DBTS|REMSERVER|LANGID|SERVERNAME|LANGUAGE|SERVICENAME|LOCK_TIMEOUT|SPID|MAX_CONNECTIONS|TEXTSIZE|MAX_PRECISION|VERSION|NESTLEVEL)\b</string>
+			<key>name</key>
+			<string>support.function.configuration.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)\b(ABS|DEGREES|RAND|ACOS|EXP|ROUND|ASIN|FLOOR|SIGN|ATAN|LOG|SIN|ATN2|LOG10|SQRT|CEILING|PI|SQUARE|COS|POWER|TAN|COT|RADIANS)\b</string>
+			<key>name</key>
+			<string>support.function.mathematical.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)\b(CAST|CONVERT|PARSE|TRY_CAST|TRY_CONVERT|TRY_PARSE)\b</string>
+			<key>name</key>
+			<string>support.function.conversion.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)\b(choose|iif)\b</string>
+			<key>name</key>
+			<string>support.function.logical.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)\b(openxml|opendatasource|openquery|openrowset)\b</string>
+			<key>name</key>
+			<string>support.function.rowset.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)\b(RANK|NTILE|DENSE_RANK|ROW_NUMBER)\b</string>
+			<key>name</key>
+			<string>support.function.ranking.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)\b(SYSDATETIME|SYSDATETIMEOFFSET|SYSUTCDATETIME|GETDATE|GETUTCDATE|CURRENT_TIMESTAMP|DATENAME|DATEPART|DAY|MONTH|YEAR|DATEFROMPARTS|DATETIME2FROMPARTS|DATETIMEFROMPARTS|DATETIMEOFFSETFROMPARTS|SMALLDATETIMEFROMPARTS|TIMEFROMPARTS|DATEDIFF|DATEADD|EOMONTH|SWITCHOFFSET|TODATETIMEOFFSET|SET DATEFIRST|SET DATEFORMAT|SET LANGUAGE|sp_helplanguage|ISDATE)\b</string>
+			<key>name</key>
+			<string>support.function.datetime.sql</string>
 		</dict>
 		<dict>
 			<key>match</key>
