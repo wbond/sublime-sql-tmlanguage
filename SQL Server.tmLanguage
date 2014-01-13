@@ -419,6 +419,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>(?i)\b(CERTENCODED|PWDCOMPARE|CERTPRIVATEKEY|PWDENCRYPT|CURRENT_USER|SCHEMA_ID|DATABASE_PRINCIPAL_ID|SCHEMA_NAME|sys\.fn_builtin_permissions|SESSION_USER|sys\.fn_get_audit_file|SUSER_ID|sys\.fn_my_permissions|SUSER_SID|HAS_PERMS_BY_NAME|SUSER_SNAME|IS_MEMBER|SYSTEM_USER|IS_ROLEMEMBER|SUSER_NAME|IS_SRVROLEMEMBER|USER_ID|ORIGINAL_LOGIN|USER_NAME|PERMISSIONS)\b</string>
+			<key>name</key>
+			<string>support.function.security.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>(?i)(@\w+)\b</string>
 			<key>name</key>
 			<string>variable.other.sql</string>
