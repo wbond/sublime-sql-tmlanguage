@@ -421,7 +421,7 @@
 			<key>match</key>
 			<string>(?i)(@\w+)\b</string>
 			<key>name</key>
-			<string>variable.language.sql</string>
+			<string>variable.other.sql</string>
 		</dict>
 		<dict>
 			<key>captures</key>
