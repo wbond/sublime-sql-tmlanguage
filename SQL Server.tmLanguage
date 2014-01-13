@@ -15,7 +15,7 @@
 	<key>keyEquivalent</key>
 	<string>^~S</string>
 	<key>name</key>
-	<string>SQL</string>
+	<string>SQL Server</string>
 	<key>patterns</key>
 	<array>
 		<dict>
