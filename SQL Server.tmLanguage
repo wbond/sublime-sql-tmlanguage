@@ -353,7 +353,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(\w+?)\.(\w+)?\.(\w+)\b</string>
+			<string>\b(\w+?)\.(\w+)?\.(\w+)\b\s*\(</string>
 			<!-- <string>(\w+?)\.(\w+)</string> -->
 		</dict>
 		<dict>
@@ -371,7 +371,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(\w+?)\.(\w+)\b</string>
+			<string>\b(\w+?)\.(\w+)\b\s*\(</string>
 			<!-- <string>(\w+?)\.(\w+)</string> -->
 		</dict>
 		<dict>
