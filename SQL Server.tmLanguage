@@ -196,7 +196,7 @@
 			<string>(?xi)
 
 				# normal stuff, capture 1
-				 \b(bigint|bigserial|bit|boolean|box|bytea|cidr|circle|date|double\sprecision|inet|int|integer|line|lseg|macaddr|money|oid|path|point|polygon|real|serial|smallint|smalldatetime|sysdate|sysname|tinyint|text)\b
+				 \b(bigint|bigserial|bit|boolean|box|bytea|cidr|circle|date|double(?:\sprecision)?|inet|int|integer|line|lseg|macaddr|money|oid|path|point|polygon|real|serial|smallint|smalldatetime|sysdate|sysname|tinyint|text)\b
 
 				# numeric suffix, capture 2 + 3i
 				|\b(bit\svarying|character\s(?:varying)?|var\schar|float|interval)\((\d+)\)
@@ -217,9 +217,15 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i:\b((?:primary|foreign)\s+key|identity|default|go|use|declare|case|when|then|else|if|end|references|on\sdelete(\s+cascade)?|check|constraint)\b)</string>
+			<string>(?i:\b((?:primary|foreign)\s+key|identity|references|on\sdelete(\s+cascade)?|check|constraint)\b)</string>
 			<key>name</key>
 			<string>storage.modifier.sql</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i:\b(add|all|and|any|as|authorization|backup|between|break|browse|bulk|by|case|check|checkpoint|close|clustered|coalesce|collate|column|compute|contains|containstable|continue|convert|current|current_user|cursor|database|dbcc|deallocate|declare|default|delete|deny|disk|distributed|double|dump|else|end|errlvl|escape|except|exists|exit|external|fetch|file|fillfactor|for|freetext|freetexttable|full|function|goto|holdlock|identitycol|identity_insert|if|in|insert|intersect|into|is|isnull|key|kill|left|lineno|load|merge|national|nocheck|nonclustered|not|nullif|of|off|offsets|on|open|opendatasource|openquery|openrowset|openxml|option|or|over|percent|pivot|plan|print|proc|public|raiserror|read|readtext|reconfigure|replication|restore|return|revert|right|rowcount|rowguidcol|rule|save|schema|securityaudit|semantickeyphrasetable|semanticsimilaritydetailstable|semanticsimilaritytable|session_user|set|setuser|shutdown|some|statistics|system_user|tablesample|textsize|then|to|top|tran|truncate|try_convert|tsequal|unpivot|updatetext|use|user|waitfor|when|while|with|within|writetext)\b)</string>
+			<key>name</key>
+			<string>keyword.sql</string>
 		</dict>
 		<dict>
 			<key>match</key>
