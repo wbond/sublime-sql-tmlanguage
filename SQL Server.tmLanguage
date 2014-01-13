@@ -333,7 +333,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>constant.other.database-name.sql</string>
+					<string>entity.name.type.class.sql</string>
 				</dict>
 				<key>2</key>
 				<dict>
