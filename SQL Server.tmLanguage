@@ -338,6 +338,29 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
+					<string>entity.name.type.class.sql</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>constant.other.table-name.sql</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\b(\w+?)\.(\w+)?\.(\w+)\b</string>
+			<!-- <string>(\w+?)\.(\w+)</string> -->
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.type.class.sql</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
 					<string>constant.other.table-name.sql</string>
 				</dict>
 			</dict>
