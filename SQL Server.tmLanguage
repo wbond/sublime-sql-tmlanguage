@@ -271,7 +271,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i:\b(begin(\s+work)?|start\s+transaction|commit(\s+work)?|rollback(\s+work)?)\b)</string>
+			<string>(?i:\b(begin(\s+(?:work|transaction))?|start\s+transaction|commit(\s+(?:work|transaction))?|rollback(\s+(?:work|transaction))?)\b)</string>
 			<key>name</key>
 			<string>keyword.other.LUW.sql</string>
 		</dict>
