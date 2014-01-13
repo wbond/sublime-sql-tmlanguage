@@ -345,17 +345,17 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>variable.language.sql</string>
+					<string>support.class.sql</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>variable.language.sql</string>
+					<string>support.class.sql</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>constant.other.table-name.sql</string>
+					<string>meta.function-call.sql</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -368,12 +368,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>variable.language.sql</string>
+					<string>support.class.sql</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>constant.other.table-name.sql</string>
+					<string>meta.function-call.sql</string>
 				</dict>
 			</dict>
 			<key>match</key>
