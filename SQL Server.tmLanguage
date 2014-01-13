@@ -333,12 +333,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.class.sql</string>
+					<string>variable.language.sql</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.class.sql</string>
+					<string>variable.language.sql</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -356,7 +356,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.class.sql</string>
+					<string>variable.language.sql</string>
 				</dict>
 				<key>2</key>
 				<dict>
