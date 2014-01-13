@@ -42,7 +42,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?i:^\s*(create)\s+(aggregate|conversion|database|domain|function|group|(?:(?:non)?clustered\s+)?(unique\s+)?index|language|operator class|operator|rule|schema|sequence|table|tablespace|trigger|type|user|view)\s+)(['"`]?)((?:\w+\.)?\w+)\4</string>
+			<string>(?i:^\s*(create)\s+(aggregate|conversion|database|domain|function|group|(?:(?:non)?clustered\s+)?(unique\s+)?index|language|operator class|operator|procedure|rule|schema|sequence|table|tablespace|trigger|type|user|view)\s+)(['"`]?)((?:\w+\.)?\w+)\4</string>
 			<key>name</key>
 			<string>meta.create.sql</string>
 		</dict>
@@ -61,7 +61,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?i:^\s*(drop)\s+(aggregate|conversion|database|domain|function|group|index|language|operator class|operator|rule|schema|sequence|table|tablespace|trigger|type|user|view))</string>
+			<string>(?i:^\s*(drop)\s+(aggregate|conversion|database|domain|function|group|index|language|operator class|operator|procedure|rule|schema|sequence|table|tablespace|trigger|type|user|view))</string>
 			<key>name</key>
 			<string>meta.drop.sql</string>
 		</dict>
